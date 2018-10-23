@@ -41,7 +41,7 @@ public class ConsejosFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_consejos, container, false);
 
         rv_consejos = view.findViewById(R.id.rv_consejos);
-        rv_consejos.setHasFixedSize(true);
+       // rv_consejos.setHasFixedSize(true);
 
         loadData();
         AdapterConsejos adapter = new AdapterConsejos(consejos,getContext());

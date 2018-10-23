@@ -12,7 +12,7 @@
 
         <TextView
             android:id="@+id/tv_nom_ejercicio"
-            android:layout_weight="6"
+            android:layout_weight="5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Nombre ejercicio"
@@ -22,8 +22,11 @@
         <ImageView
             android:id="@+id/img_ejercicio"
             android:src="@mipmap/ic_excercice"
-            android:layout_weight="4"
+            android:layout_weight="5"
             android:layout_width="0dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
             android:layout_height="match_parent" />
     </LinearLayout>
 
